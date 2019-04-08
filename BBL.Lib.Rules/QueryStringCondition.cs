@@ -41,6 +41,7 @@ namespace BBL.Lib.Rules
             bool foundStartsWith = false;
             bool foundEndsWith = false;
 
+
             Assert.ArgumentNotNull(ruleContext, "ruleContext");
 
             string myQueryStringName = this.QueryStringName ?? string.Empty;
